@@ -1,0 +1,23 @@
+Source: dav-text
+Section: text
+Priority: optional
+Maintainer: Adam Bilbrough <ats@atlas.cz>
+Build-Depends: debhelper-compat (= 12), libncurses-dev
+Standards-Version: 4.3.0
+Homepage: https://github.com/atsb/dav-text
+
+Package: dav-text
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: minimalist ncurses-based text editor
+ Dav is meant to provide a stable text editor that is efficient
+ in both memory and processor usage. It is simple to use, making it ideal for
+ novice users. It is licensed under the GPL and is still
+ in development.
+ .
+ Features include:
+     * Memory and cpu efficiency
+     * Small filesize and footprint
+     * Freely licensed under the GPL
+     * Useful feature set
+     * Intuitive and easy to use

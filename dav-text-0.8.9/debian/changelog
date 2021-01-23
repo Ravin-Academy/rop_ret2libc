@@ -1,0 +1,85 @@
+dav-text (0.8.9-1) unstable; urgency=medium
+
+  * Removed some warnings from GCC8.
+  * Fixed incorrect casting from int to long unsigned int.
+
+ -- Adam Bilbrough <ats@atlas.cz>  Sat, 09 Feb 2019 19:28:40 +0100
+
+dav-text (0.8.8-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Cleaned up editor interface.
+  * Fixed some spelling/grammar errors.
+  * Clarified some wordings in the editor.
+  * Removed optimising flag due to crash on startup for older systems.
+
+ -- Adam Bilbrough <atsb@tutanota.de>  Sat, 03 Feb 2018 19:31:31 +0100
+
+dav-text (0.8.7-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Adds '+' as an argument for specifying a line number (closes: #872848)
+  * Fixes a segfault when saving an invalid file (wrong encoding).
+  * Clarifies the usage of command line arguments.
+  * Updated debian/watch with simpler rules.
+  * Removed -fomit-frame-pointer and -O1 rules from Makefile.
+
+ -- Adam Bilbrough <atsb@tutanota.de>  Sat, 26 Aug 2017 22:16:53 +0200
+
+dav-text (0.8.6-1) unstable; urgency=medium
+
+  * New maintainer. (closes: #760135)
+  * New upstream release.
+  * Updated control file standards to 4.0.0
+  * Updated Makefile with more strict compilation flags
+  * Updated copyright and upstream information
+  * Updated rules
+  * Added watch file
+
+ -- Adam Bilbrough <atsb@tutanota.de>  Thu, 17 Aug 2017 19:34:25 +0200
+
+dav-text (0.8.5-6) unstable; urgency=medium
+
+  * QA upload.
+  * Orphan the package.
+  * Toss away the packaging, re-do using dh 9; closes: #817423.
+  * Drop the Debian menu.
+  * Pass CFLAGS to the compiler.
+  * Source format 3.0 (quilt).
+  * Fix sprintf format errors and buffer overflows on long filenames.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Thu, 04 Aug 2016 10:12:11 +0200
+
+dav-text (0.8.5-5) unstable; urgency=low
+
+  * Actually call dh_installmenu to install the menu file
+  * Fix FSF address
+
+ -- Benjamin Seidenberg <astronut@dlgeek.net>  Tue, 18 Apr 2006 14:07:55 -0400
+
+dav-text (0.8.5-4) unstable; urgency=low
+
+  * Updated debian/control with new email address.
+  * Added hompage in description.
+
+ -- Benjamin Seidenberg <astronut@dlgeek.net>  Sun, 21 Aug 2005 21:18:22 -0400
+
+dav-text (0.8.5-3) unstable; urgency=low
+
+  * Fix CFLAGS issue in debian/rules
+  * Removed erroneous file debian/dav.substvars
+  * Upgrade to Standards-Version 3.6.2
+
+ -- Benjamin Seidenberg <astronut@gmail.com>  Sun, 10 Jul 2005 15:34:38 -0400
+
+dav-text (0.8.5-2) unstable; urgency=low
+
+  * Setup Alternatives system properly
+
+ -- Benjamin Seidenberg <astronut@gmail.com>  Sat, 11 Jun 2005 00:57:21 -0400
+
+dav-text (0.8.5-1) unstable; urgency=low
+
+  * Initial release Closes: #161106,#180628 (Request for package)
+
+ -- Benjamin Seidenberg <astronut@gmail.com>  Fri,  3 Jun 2005 20:27:15 -0400
